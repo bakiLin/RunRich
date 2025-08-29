@@ -41,6 +41,9 @@ public class StatusManager : MonoBehaviour
             case < 100:
                 _statusId = 2;
                 break;
+            case < 150:
+                _statusId = 3;
+                break;
         }
 
         if (_prevStatusId != _statusId || _prevStatusId < 0)
