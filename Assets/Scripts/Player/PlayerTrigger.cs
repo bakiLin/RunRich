@@ -12,6 +12,7 @@ public class PlayerTrigger : MonoBehaviour
         if (collectable != null)
         {
             OnCollect?.Invoke(collectable.GetMoneyValue());
+            other.gameObject.SetActive(false);
         }
     }
 }
