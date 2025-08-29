@@ -9,11 +9,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float _moveSpeed;
 
-    private float _movementX;
+    [SerializeField]
+    private float _limitX;
+
+    private Vector3 _movement;
 
     private void Update()
     {
-        _movementX = _dragArea.InputX * _moveSpeed * Time.deltaTime;
-        transform.localPosition += new Vector3(_movementX, 0f);
+        _movement = transform.localPosition;
+        _movement.x += _dragArea.InputX * _moveSpeed * Time.deltaTime;
+        _movement.x = Mathf.Clamp(_movement.x, -_limitX, _limitX);
+        transform.localPosition = _movement;
     }
 }
