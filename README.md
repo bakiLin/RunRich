@@ -7,6 +7,9 @@
 - Изменение модели персонажа в зависимости от шкалы
 - Анимации
 - Эффекты
+- Срок: 24 часа
+## Геймплей
+https://github.com/user-attachments/assets/5ed7affc-798b-420f-8c30-738a0b81e620
 ## Стек
 - Zenject
 - DOTween
