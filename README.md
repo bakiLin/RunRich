@@ -12,5 +12,5 @@
 - DOTween
 - Splines
 ## Ссылки
-[APK](https://drive.google.com/file/d/1Vd_fSF3d7_NdNNMYrIn2T7u78GZeGwrl/view)
+[Референс](https://drive.google.com/file/d/1Vd_fSF3d7_NdNNMYrIn2T7u78GZeGwrl/view)
 
